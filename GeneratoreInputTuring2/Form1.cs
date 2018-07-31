@@ -38,12 +38,12 @@ namespace GeneratoreInputTuring2
                 "tr"
             };
 
-            int n_stati = x.Next(100 * MILLE, 1000 * MILLE);
-            int n_transizioni = x.Next(200 * MILLE, 2000 * MILLE);
+            int n_stati = x.Next(90 * MILLE, 500 * MILLE);
+            int n_transizioni = x.Next(5000 * MILLE, 6000 * MILLE);
             int n_char = x.Next(5, 10);
             RiempiTransizioni(n_transizioni, n_stati, n_char);
             L.Add("acc");
-            int n_acc = x.Next(2, 10);
+            int n_acc = x.Next(1000, 1500);
             RiempiAccettazione(n_acc, n_stati);
             L.Add("max");
             L.Add(x.Next(1000*MILLE,2000*MILLE).ToString());
