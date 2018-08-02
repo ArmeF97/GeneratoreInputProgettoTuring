@@ -11,10 +11,10 @@ C:\Users\Arme\source\repos\GeneratoreInputTuring2\GeneratoreInputTuring2\obj\Deb
 C:\git\GeneratoreInputProgettoTuring\GeneratoreInputTuring2\bin\Debug\GeneratoreInputTuring2.exe.config
 C:\git\GeneratoreInputProgettoTuring\GeneratoreInputTuring2\bin\Debug\GeneratoreInputTuring2.exe
 C:\git\GeneratoreInputProgettoTuring\GeneratoreInputTuring2\bin\Debug\GeneratoreInputTuring2.pdb
-C:\git\GeneratoreInputProgettoTuring\GeneratoreInputTuring2\obj\Debug\GeneratoreInputTuring2.csprojAssemblyReference.cache
 C:\git\GeneratoreInputProgettoTuring\GeneratoreInputTuring2\obj\Debug\GeneratoreInputTuring2.Form1.resources
 C:\git\GeneratoreInputProgettoTuring\GeneratoreInputTuring2\obj\Debug\GeneratoreInputTuring2.Properties.Resources.resources
 C:\git\GeneratoreInputProgettoTuring\GeneratoreInputTuring2\obj\Debug\GeneratoreInputTuring2.csproj.GenerateResource.cache
 C:\git\GeneratoreInputProgettoTuring\GeneratoreInputTuring2\obj\Debug\GeneratoreInputTuring2.csproj.CoreCompileInputs.cache
 C:\git\GeneratoreInputProgettoTuring\GeneratoreInputTuring2\obj\Debug\GeneratoreInputTuring2.exe
 C:\git\GeneratoreInputProgettoTuring\GeneratoreInputTuring2\obj\Debug\GeneratoreInputTuring2.pdb
+C:\git\GeneratoreInputProgettoTuring\GeneratoreInputTuring2\obj\Debug\GeneratoreInputTuring2.csprojAssemblyReference.cache
