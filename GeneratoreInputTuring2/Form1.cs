@@ -147,18 +147,22 @@ namespace GeneratoreInputTuring2
 
             if (checkBox3.Checked)
             {
-                for (int i = 0; i < n_stati; i++)
+                int q1 = x.Next(1, 3);
+                for (int j = 0; j < q1; j++)
                 {
-                    int do2 = x.Next(1, 100);
-                    if (do2 <= numericUpDown5.Value)
+                    for (int i = 0; i < n_stati; i++)
                     {
-                        int a1 = i;
-                        char a2 = CarattereRandom(n_char);
-                        char a3 = CarattereRandom(n_char);
-                        char a4 = SpostamentoRandom();
-                        int a5 = i;
-                        string s = a1 + " " + a2 + " " + a3 + " " + a4 + " " + a5;
-                        L.Add(s);
+                        int do2 = x.Next(1, 100);
+                        if (do2 <= numericUpDown5.Value)
+                        {
+                            int a1 = i;
+                            char a2 = CarattereRandom(n_char);
+                            char a3 = CarattereRandom(n_char);
+                            char a4 = SpostamentoRandom();
+                            int a5 = i;
+                            string s = a1 + " " + a2 + " " + a3 + " " + a4 + " " + a5;
+                            L.Add(s);
+                        }
                     }
                 }
             }
@@ -237,12 +241,12 @@ namespace GeneratoreInputTuring2
             numericUpDown15.Maximum = numericUpDown1.Maximum;
 
             //n_stati
-            numericUpDown1.Value = 1000;
-            numericUpDown2.Value = 2000;
+            numericUpDown1.Value = 150;
+            numericUpDown2.Value = 250;
 
             //n_accettati
-            numericUpDown3.Value = 3;
-            numericUpDown4.Value = 5;
+            numericUpDown3.Value = 1;
+            numericUpDown4.Value = 2;
 
             //check_transizioni
             checkBox1.Checked = true;
@@ -250,35 +254,35 @@ namespace GeneratoreInputTuring2
 
             //probabilità autoanello
             checkBox3.Checked = true;
-            numericUpDown5.Value = 50;
+            numericUpDown5.Value = 85;
 
             //numero transizioni extra
-            numericUpDown6.Value = 5000;
-            numericUpDown7.Value = 7000;
+            numericUpDown6.Value = 400;
+            numericUpDown7.Value = 500;
 
             //numero caratteri usati
             numericUpDown8.Value = 4;
-            numericUpDown9.Value = 8;
+            numericUpDown9.Value = 6;
 
             //numero stringhe di input
             numericUpDown10.Value = 25;
             numericUpDown11.Value = 30;
 
             //numero di mosse massine
-            numericUpDown12.Value = 10000;
-            numericUpDown13.Value = 40000;
+            numericUpDown12.Value = 50000;
+            numericUpDown13.Value = 80000;
 
             //lunghezza nastro di input
             numericUpDown14.Value = 100;
-            numericUpDown15.Value = 10000;
+            numericUpDown15.Value = 300;
 
             //probabilità di _ nelle stringhe di input (su 1000 massimo)
-            numericUpDown16.Value = 10;
+            numericUpDown16.Value = 15;
             numericUpDown16.Minimum = 0;
             numericUpDown16.Maximum = 1000;
 
             //probabilità di _ nelle stringhe di transizione
-            numericUpDown17.Value = 30;
+            numericUpDown17.Value = 35;
             numericUpDown17.Minimum = 0;
             numericUpDown17.Maximum = 1000;
 
